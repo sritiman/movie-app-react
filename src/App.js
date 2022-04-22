@@ -7,6 +7,7 @@ import {useEffect, useReducer, useState} from "react";
 import MovieContext from './contexts/MovieContext';
 import AddMovieForm from './components/AddMovieForm';
 import Pagination from './components/Pagination';
+import Footer from './components/Footer';
 
 
 
@@ -147,8 +148,9 @@ function App() {
        <FeaturedMovie />
        <Pagination moviesPerPage={moviesPerPage} setPageNo={setPageNo} pageNo={pageNo}/>
       <MovieList pageNo={pageNo} moviesPerPage={moviesPerPage}/>
-    
+      <Footer/>
   </MovieContext.Provider>
+
   );
 }
 

@@ -16,8 +16,6 @@ export default function FeaturedMovie() {
             <p className='type'>{featuredMovie.vote_count}+ votes</p>
             <p>{featuredMovie.overview}</p>
             </div>
-
-
         </figcaption>
       </figure>
       

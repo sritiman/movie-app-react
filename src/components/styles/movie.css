@@ -8,6 +8,7 @@
   width: 300px;
   margin: 2rem;
   border-radius: 8px;
+  background-color: #e9e6e6;
   -webkit-box-shadow: 1px 1px 12px 1px gray;
           box-shadow: 1px 1px 12px 1px gray;
   -webkit-transition: 0.5s;
@@ -20,6 +21,11 @@
 
 .movie-card figure img {
   width: 100%;
+}
+
+.movie-card figure h2 {
+  text-align: center;
+  overflow: hidden;
 }
 
 .movie-card:hover {

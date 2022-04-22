@@ -8,7 +8,7 @@
 }
 
 #form-modal {
-  padding: 10px;
+  width: 25rem;
   z-index: 10;
   position: fixed;
   top: 50%;
@@ -21,6 +21,17 @@
 
 #form-modal .form-header {
   font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #216421;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+  padding: 20px;
 }
 
 #form-modal .form-header b {
@@ -28,16 +39,30 @@
 }
 
 #form-modal form {
-  margin: 15px;
+  padding: 15px;
 }
 
 #form-modal form input, #form-modal form textarea, #form-modal form button {
   display: block;
   font-size: 20px;
-  margin: 8px 0px;
-  padding: 5px;
+  margin: 10px 0px;
+  padding: 10px;
   width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: arial;
+  border-radius: 5px;
+  border: 0.5px solid gray;
+}
+
+#form-modal form button {
+  background-color: #2a2a46;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+#form-modal form button:hover {
+  background-color: #1a191f;
 }
 /*# sourceMappingURL=addForm.css.map */

@@ -5,12 +5,17 @@
     width: 300px;
     margin: 2rem;
     border-radius: 8px;
+    background-color: rgb(233, 230, 230);
     box-shadow: 1px 1px 12px 1px gray;
     transition: 0.5s;
     figure {
         margin: 8px;
         img {
             width: 100%;
+        }
+        h2 {
+            text-align: center;
+            overflow: hidden;
         }
     }
     &:hover {

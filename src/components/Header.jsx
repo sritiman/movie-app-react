@@ -33,7 +33,7 @@ export default function Header({filterMovies, sortMovies, setMoviesPerPage, setP
 
             </li>
             <li>
-                <input type="text" placeholder='Search...' onChange={handleChange}/>
+                <input id="movie-search-bar" type="text" placeholder='Search...' onChange={handleChange}/>
             </li>
         </ul>
     </header>

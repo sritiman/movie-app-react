@@ -3,19 +3,19 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     position: fixed;
-    background-color: white;
+    background-color: rgba(32, 32, 32, 0.82);
+    color: white;
+    backdrop-filter: blur(10px);
     top: 0;
     width: 100%;
     z-index: 5;
     padding: 5px 4rem;
-    box-shadow: 0px 2px 13px 2px rgb(87, 86, 86);
     box-sizing: border-box;
 
     h1{
         display: flex;
         align-items: center;
     }
-
 
     ul {
         display: flex;
@@ -31,7 +31,21 @@ header {
                 font-size: 20px;
                 border: 1px solid gray;
                 padding: 6px;
-                border-radius: 2px;
+                border-radius: 5px;
+            }
+            button {
+                background-color: rgb(248, 68, 36);
+                color: white;
+                border: none;
+            }
+
+            #movie-search-bar {
+                border: 0px;
+                border-bottom: 2px solid red;
+                background-color: rgba(0,0,0,0.5);
+                color: white;
+                border-radius: 0;
+                
             }
             
         }

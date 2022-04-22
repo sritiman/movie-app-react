@@ -3,8 +3,8 @@
     justify-content: center;
     #pages{
         padding: 0px 20px;
-
-        box-shadow: 1px 1px 7px 2px gray;
+        background-color: rgb(233, 230, 230);
+        box-shadow: 1px 1px 7px 2px rgb(182, 181, 181);
         border-radius: 10px;
         display: flex;
         justify-content: center;
@@ -13,7 +13,7 @@
         text-align: center;
         display: inline-block;
         padding: 10px;
-        background-color: rgb(218, 214, 214);
+        background-color: rgb(187, 184, 184);
         border-radius: 5px;
         width: 2rem;
         font-size: 25px;
